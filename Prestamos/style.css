@@ -1,0 +1,75 @@
+﻿body {
+    background: #113f67;
+    color:white;
+    font-family:'Calibri', 'Trebuchet MS', 'sans-serif';
+}
+.form {
+    max-width: 500px;
+    background-color: #24303c;
+    border-radius: 4px;
+    margin:auto;
+    padding: 10px 35px;
+    
+}
+.form h4{
+    font-size:22px;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+.results {
+    width: 100%;
+    background-color: #24303c;
+    border-radius: 4px;
+    padding: 10px 35px;
+}
+.results h4{
+    font-size:22px;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+.input {
+    width: 100%;
+    background-color: #24303c;
+    padding: 10px;
+    border-radius:4px;
+    margin-bottom:15px;
+    border: 1px solid #1f53c5;
+    font-size:18px;
+    color:white;
+}
+.buttons {
+    display: inline-block;
+    margin-bottom: 15px;
+    align-self: center;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #f95959;
+    color: #f95959;
+    font-size: 18px;
+    background-color: #24303c;
+    display: inline;
+    width: 100%;
+}
+.buttons-green {
+    border: 1px solid #118a7e;
+    color: #118a7e;
+}
+.buttons:hover {
+    background-color: #f95959;
+    color: white;
+}
+.buttons-green:hover {
+    background-color: #118a7e;
+    color: white;
+}
+.ctPago {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.ctHeader {
+    color:red;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
